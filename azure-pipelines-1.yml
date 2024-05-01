@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: echo KK Mac Red 1 
-  displayName: 'Run a one-line script version'
+  displayName: 'Run a one-line script version 4'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
