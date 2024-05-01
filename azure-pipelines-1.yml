@@ -10,8 +10,8 @@ pool:
   name: 'KK Mac Red'
 
 steps:
-- script: echo KK Mac Red 1. edit from github 
-  displayName: 'Run a one-line script for Red Mac'
+- script: echo KK Mac Red 1 
+  displayName: 'Run a one-line script for Red Mac from github site'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
