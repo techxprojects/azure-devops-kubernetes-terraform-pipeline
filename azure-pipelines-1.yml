@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: echo KK Mac Red 1 
-  displayName: 'Run a one-line script for Red Mac from github site'
+  displayName: 'Run a one-line script comment 1'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
