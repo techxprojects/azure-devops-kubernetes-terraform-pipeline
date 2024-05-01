@@ -10,7 +10,7 @@ pool:
   name: 'KK Mac Red'
 
 steps:
-- script: echo KK Mac Red 1
+- script: echo KK Mac Red 1. edit from github 
   displayName: 'Run a one-line script for Red Mac'
 
 - script: |
