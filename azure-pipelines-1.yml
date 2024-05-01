@@ -7,11 +7,11 @@ trigger:
 - main
 
 pool:
-  name: Default
+  name: 'KK Mac Red'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- script: echo KK Mac Red 1
+  displayName: 'Run a one-line script for Red Mac'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
