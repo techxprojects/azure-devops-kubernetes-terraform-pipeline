@@ -35,3 +35,12 @@ stages:
         deploy:
           steps:
           - script: echo deploy to QA
+- stage: UETDeploy
+  jobs:
+  - deployment: UETDeployJob
+    environment: UAT
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+           - script: echo deploy to UAE
